@@ -1,3 +1,5 @@
+// (#33) in leetcode
+
 int bin_sch(int *nums, int low, int high, int target) {
     if (low <= high) {
         int mid = low + (high - low) / 2; // Calculate mid inside the if block
